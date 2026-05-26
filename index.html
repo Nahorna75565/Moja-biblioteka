@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Biblioteka</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Moja Biblioteka</h1>
+
+    <form id="formularzKsiazki">
+
+        <input type="text" id="tytul" placeholder="Tytuł książki" required>
+        <input type="text" id="autor" placeholder="Autor" required>
+
+        <textarea id="opis" placeholder="Opis książki"></textarea>
+
+        <button type="submit">Dodaj książkę</button>
+    </form>
+
+    <div id="listaKsiazek"></div>
+
+</div>
+
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
